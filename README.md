@@ -1,0 +1,2 @@
+# EXERCISES
+exercise about FizzBuzz
