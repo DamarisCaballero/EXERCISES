@@ -1,6 +1,6 @@
 function acabanEnA(words) {
     for ( let i = 0; i < words.lenght; i++){
-        if (words[i].acabanEnA('a')){
+        if (words[i].endsWith('a')){
             return false;
         }
     }
