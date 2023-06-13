@@ -18,6 +18,15 @@ Recuerda que debes devolver el array modificado:
 
  */
 
-function procesarPedido(pedidos) {
-    // tu código aquí
-  }
+
+    function procesarPedido(pedido) {
+    const nombreCliente = pedido.shift();
+
+    pedido.unshift("bebida");
+    pedido.push(nombreCliente);
+    return pedido;
+}
+
+    const pedido = ["Juan", "pizza", "ensalada", "postre"];
+    const pedidoProcesado = procesarPedido(pedido);
+    console.log(pedidoProcesado);
