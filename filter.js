@@ -22,9 +22,9 @@ console.log(stringsWithA) // ['hola', 'adiós', 'casa', 'gato']
 /**************************************
 /**************************************/
 
-const numbers = [1, 2, 3]
+const numbers1 = [1, 2, 3]
 
-const doubleNumbers = numbers.map((number) => {
+const doubleNumbers = numbers1.map((number) => {
   return number * 2
 })
 
@@ -32,9 +32,9 @@ console.log(doubleNumbers) // [2, 4, 6]
 /**************************************
 /**************************************
 /**************************************/
-const strings = ['hola', 'javascript', 'midu', 'programación']
+const strings1 = ['hola', 'javascript', 'midu', 'programación']
 
-const stringsLength = strings.map((string) => string.length)
+const stringsLength = strings1.map((string) => string.length)
 
 console.log(stringsLength) // [4, 10, 4, 12]
 /**************************************
